@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why I Keep Coming Back to OpenStack"
-date: 2026-07-15
+date: 2026-07-11
 ---
 
 If you'd told me a year ago how much time I'd spend staring at RabbitMQ logs at 2 AM, I probably would've laughed. But here I am, and honestly — I wouldn't trade it.
