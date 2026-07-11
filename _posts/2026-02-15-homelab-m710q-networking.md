@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Homelab Lessons: The M710q, Realtek Adapters, and Why pfSense Wants Intel"
-date: 2026-07-11
+date: 2026-02-15
 ---
 
 Homelabbing teaches you things production environments never will — mostly because you're allowed to fail loudly and often, on hardware you own, without a change ticket in sight. One of my favorite (and most frustrating) lessons came from something as "simple" as networking on a Lenovo ThinkCentre M710q.
