@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Talking to a Biometric Device in PHP: My ZKTeco Integration"
-date: 2026-07-11
+date: 2019-07-11
 tags: [php, mysql, webdev]
 ---
 
