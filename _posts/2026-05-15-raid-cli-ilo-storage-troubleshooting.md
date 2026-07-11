@@ -10,6 +10,8 @@ There's a particular kind of frustration in staring at a healthy-looking dashboa
 
 Working on IaaS infrastructure with Ceph as the shared storage backend, one of the recurring questions I have to answer whenever something looks off is deceptively simple to ask and genuinely hard to answer: **is this a disk problem, a host problem, or just noise?**
 
+Our cluster or environment isn't single-vendor — I support HPE, Supermicro, and Dell hardware, though HPE makes up most of what I troubleshoot day to day. Each vendor has its own out-of-band management flavor and its own quirks in how it surfaces hardware health, which means the underlying OS-level tools end up being the one consistent language across all three.
+
 Ceph will tell you an OSD is flapping, slow, or down. What it won't tell you outright is *why* — that part means going a layer deeper into the actual hardware underneath the OSD.
 
 ## The toolkit
@@ -21,7 +23,7 @@ Over time I built up a real workflow for this, mostly leaning on:
 - **`journalctl`** — systemd's journal, useful for correlating disk errors with service-level symptoms — did the OSD process crash right when the kernel logged a read error? That correlation is often the smoking gun.
 - **Disk error codes** — reading through actual SCSI/ATA sense codes instead of just "disk error" gives you the difference between a media error, a timeout, and a controller-reported fault — each one points you somewhere different.
 - **RAID CLI (logical and physical views)** — this is the piece a lot of people skip. The RAID controller's own CLI tool lets you inspect both the logical drive (what the OS sees) and the physical drive (what's actually installed) separately. A logical volume can report healthy while a specific physical disk underneath it is throwing predictive failure flags — and that gap is exactly where a lot of "everything looks fine but it's not" cases live.
-- **iLO** — HPE's out-of-band management interface, useful for a hardware-level health summary without needing OS access at all. Great for a first pass, but as I found out, not always the full picture.
+- **iLO** — HPE's out-of-band management interface, useful for a hardware-level health summary without needing OS access at all. Great for a first pass, but as I found out, not always the full picture. (Dell and Supermicro have their own equivalents — iDRAC and IPMI/BMC tooling respectively — with the same tendency to summarize rather than expose every underlying signal.)
 
 ## The disk that "looked fine"
 
