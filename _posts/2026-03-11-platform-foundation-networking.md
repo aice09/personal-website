@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Platform Foundation Deep Dive: MetalLB, ExternalDNS, Emissary-Ingress, and the ARP Bug That Taught Me Kubernetes Networking"
+title: "The ARP Bug, the Upgrade, and What They Taught Me About Kubernetes Networking"
 date: 2026-03-11
 ---
 
