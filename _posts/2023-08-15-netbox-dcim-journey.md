@@ -21,7 +21,7 @@ I also spent time populating device libraries — the definitions NetBox uses to
 
 ## Bringing it to the people who'd actually need to sign off
 
-A good tool doesn't matter if it stays in a homelab. So I brought it to the people who'd actually be affected by adopting it — our ServiceNow manager, who's also part of the IT Asset Management team based in the Philippines, and our IT Security team. I wanted their eyes on it early, not as an afterthought after a decision was already made.
+A good tool doesn't matter if it stays in a homelab. So I brought it to the people who'd actually be affected by adopting it — our IT Asset Manager and ServiceNow Manager, who's also part of the IT Asset Management team and our IT Security team based in the Philippines. I wanted their eyes on it early, not as an afterthought after a decision was already made.
 
 Those conversations were genuinely useful. Both teams raised fair, grounded questions — about security posture, licensing, and how (or whether) NetBox could connect with our existing ServiceNow environment. When I looked into it, ServiceNow integration wasn't available yet at that point — a real gap, and a fair reason for caution.
 
