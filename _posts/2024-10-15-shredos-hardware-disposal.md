@@ -11,7 +11,7 @@ But "hand it off to a vendor" isn't where the responsibility ends. Before anythi
 
 ## Finding the right tool
 
-That's where **ShredOS** came in. It wasn't something we built — it's an existing, free, open-source tool, one that lines up with NIST's guidance on secure media sanitization. The team looked at it as a solid option that fit what we actually needed: boot it from USB, point it at a drive, and it handles secure overwriting without requiring us to build anything custom.
+That's where **[PartialVolume/ShredOS](https://github.com/PartialVolume/shredos.x86_64)** came in. It wasn't something we built — it's an existing, free, open-source tool, one that lines up with NIST's guidance on secure media sanitization. The team looked at it as a solid option that fit what we actually needed: boot it from USB, point it at a drive, and it handles secure overwriting without requiring us to build anything custom.
 
 Before rolling it out across the whole disposal backlog, we ran a proper POC first — no point trusting a new tool at scale without validating it actually does what it claims.
 
