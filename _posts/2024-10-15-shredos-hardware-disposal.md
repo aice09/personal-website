@@ -5,7 +5,7 @@ date: 2024-10-15
 tags: [infrastructure, compliance, security]
 ---
 
-Last quarter of the year — and one of the items on our plate was IT asset disposal. A backlog of old hardware needed to go, including a lot of drives that had been sitting around well past their useful life. The plan was straightforward on paper: hand them off to a vendor for physical disposal or shredding. Some disks had already been dismantled from their hosts, with plenty more still waiting to be processed.
+Last quarter of the year — and one of the items on our plate was IT asset disposal. A backlog of old hardware needed to go, including a lot of drives that had been sitting around well past their useful life. The plan was straightforward on paper: hand them off to a vendor for physical disposal or shredding. Some disks had already been dismantled, with plenty more still waiting to be processed.
 
 But "hand it off to a vendor" isn't where the responsibility ends. Before anything left our hands, we needed to make sure our side of the job was done first — the data itself had to be securely wiped, so there was zero exposure even before the physical destruction step ever happened. You don't get to assume a vendor's shredder is your only line of defense; sanitization needs to happen on your end, first.
 
@@ -17,7 +17,7 @@ Before rolling it out across the whole disposal backlog, we ran a proper POC fir
 
 ## Running the POC
 
-I set up **4 host machines** for the proof of concept and configured them to run the wipe process, with reporting built in so every wipe had a record attached to it — which drive, which method, and confirmation that it completed. Once the setup was solid, I shared the results with the team.
+I set up four host machines for the proof of concept and configured them to run the wipe process, with reporting built in so every wipe had a record attached to it — which drive, which method, and confirmation that it completed. Once the setup was solid, I shared the results with the IT asset management team.
 
 The output was successful across the board. Drives wiped cleanly, reports generated as expected, and the team had what it needed to sign off. That gave us the green light to proceed with rolling ShredOS out across the rest of the disposal backlog before those drives went to the vendor.
 
@@ -29,4 +29,4 @@ It was also a nice change of pace from day-to-day operations. Instead of keeping
 
 ## The takeaway
 
-Running the POC before committing to a tool at scale paid off. It gave the team confidence in the reporting, confidence in the process, and a clean way to prove compliance before any drive ever reached the vendor. Sometimes the most important infrastructure work isn't about building something new — it's making sure something old is retired the right way, with the evidence to back it up.
+Sometimes the most important infrastructure work isn't about building something new — it's making sure something old is retired the right way, with the evidence to back it up.
