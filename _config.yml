@@ -1,0 +1,14 @@
+title: Carl Angelo Nievarez
+description: Personal site and blog
+theme: minima
+author: Carl Angelo Nievarez
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+minima:
+  skin: dark
+  social_links:
+    github: aice09
