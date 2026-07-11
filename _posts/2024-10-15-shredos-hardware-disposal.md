@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Year We Learned to Properly Destroy Hardware: Our ShredOS Project"
+title: "Making Sure Nothing Leaves Exposed: A ShredOS POC Story"
 date: 2024-10-15
 tags: [infrastructure, compliance, security]
 ---
