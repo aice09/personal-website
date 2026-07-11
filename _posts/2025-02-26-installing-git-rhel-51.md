@@ -5,7 +5,7 @@ date: 2025-02-26
 tags: [linux, git, rhel, devops]
 ---
 
-Every so often, legacy infrastructure hands you a puzzle that modern tooling has completely forgotten how to solve. I ran into exactly that while working at Microchip Semiconductor, poking around some legacy Linux systems that had been quietly running in the background for years. Tucked in there was a RHEL 5.1 box — old enough that half the modern package repos wouldn't even acknowledge its existence anymore.
+Every so often, legacy infrastructure hands you a puzzle that modern tooling has completely forgotten how to solve. I ran into exactly that while working at Microchip, poking around some legacy Linux systems that had been quietly running in the background for years. Tucked in there was a RHEL 5.1 box — old enough that half the modern package repos wouldn't even acknowledge its existence anymore.
 
 Naturally, I needed Git on it. And naturally, `yum install git` was never going to be the answer.
 
