@@ -35,6 +35,5 @@ Dine Together, like a lot of NFT games from that era, has since faded. The hype 
 
 That's the real lesson. A "throwaway" side project for a game you're playing casually isn't throwaway at all. Even if the game itself doesn't last, the muscle you build solving real — if small — problems sticks with you long after the thing you built it for is gone.
 
-## Still up, if you're curious
 
-The calculator is still live at [dinetogether-calc.vercel.app](https://dinetogether-calc.vercel.app) — a small time capsule of a game that's mostly gone now, and proof that the best lessons sometimes come from the projects you never expected to matter.
+The calculator is available at [dinetogether-calc.vercel.app](https://dinetogether-calc.vercel.app) and the [Official Dine Substack Newsletter](https://dinetogether.substack.com/p/getting-started) — a small time capsule of a game that's mostly gone now, and proof that the best lessons sometimes come from the projects you never expected to matter.
