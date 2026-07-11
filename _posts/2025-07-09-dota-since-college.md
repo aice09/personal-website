@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Still Playing: My Dota Journey From College to Now"
-date: 2026-07-09
+date: 2025-07-09
 ---
 
 Most hobbies come and go. Dota is one of the few that's stuck with me since college — starting all the way back on Dota 1, back when it was still a Warcraft III custom map and not its own standalone game.
