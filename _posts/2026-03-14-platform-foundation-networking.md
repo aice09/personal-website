@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The ARP Bug, the Upgrade, and What They Taught Me About Kubernetes Networking"
-date: 2026-03-11
+date: 2026-06-14
 ---
 
 Looking back at something that happened in the second half of last year, during my probationary period — I was still new to Kubernetes when I got pulled into a bug that just wouldn't repeat itself. It would show up, vanish, and leave me questioning my own logs, over and over, until I started doubting whether I even understood our platform foundation module — MetalLB, ExternalDNS, and Emissary-Ingress — at all. Turns out the bug came wrapped in ARP packets and a subnet nobody had double-checked.
