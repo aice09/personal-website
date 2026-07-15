@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Memory of NAS"
-date: 2026-07-16
+date: 2026-07-15
 tags: [nas, freenas, truenas, synology, homelab, storage]
 ---
 
