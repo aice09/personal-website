@@ -117,4 +117,4 @@ Add this to `tomcat-users.xml`:
 
 ## All set
 
-And that's the full stack — Apache, PHP, MySQL, FTP, and even Tomcat if you need Java in the mix — configured and ready for local development. It's not the flashiest setup in 2026, but there's a reason it's stuck around this long: it just works, and it gets out of your way.
+And that's the full stack — Apache, PHP, MySQL, FTP, and even Tomcat if you need Java in the mix — configured and ready for local development. 
