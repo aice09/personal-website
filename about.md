@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![Carl](/assets/carlangelonievarez.jpg){: width="200" }
+
 I'm an SRE / infrastructure engineer focused on AI/ML workloads — bare metal, Kubernetes, OpenStack, and Ceph.
 
 I write about infrastructure, troubleshooting, and things I'm building on the side.
