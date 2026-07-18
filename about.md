@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/images/carlangelonievarez.jpg" alt="Carl" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;">
+<img src="/assets/carlangelonievarez.jpg" alt="Carl" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;">
 
 I'm an SRE / infrastructure engineer focused on AI/ML workloads — bare metal, Kubernetes, OpenStack, and Ceph.
 
